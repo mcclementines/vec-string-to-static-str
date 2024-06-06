@@ -1,0 +1,15 @@
+[package]
+name = "vec-string-to-static-str"
+version = "1.0.0"
+edition = "2021"
+authors = ["Jonathan McClement <jmcclement13@gmail.com>"]
+description = "A Rust library providing utilities for converting vectors of `String`s into vectors of `&'static str`."
+license = "MIT"
+repository = "https://github.com/mcclementines/vec-string-to-static-str"
+readme = "README.md"
+keywords = ["string", "static", "utilities"]
+categories = ["text-processing"]
+
+[features]
+unsafe = []
+
